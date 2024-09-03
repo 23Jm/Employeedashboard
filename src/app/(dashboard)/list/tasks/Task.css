@@ -1,0 +1,20 @@
+.task{
+    background-image: url("../../../../../public/LinkedIn\ cover\ -\ 3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: 1;
+    color: black;
+    filter: blur(8px);
+  -webkit-filter: blur(1px);
+}
+.addteam:hover{
+  cursor: context-menu;
+}
+/* Custom CSS for option elements */
+select option {
+  background-color: white; /* Default background for all options */
+}
+select option.green-bg {
+  background-color: #14B160; /* Tailwind CSS 'bg-green-100' equivalent */
+}

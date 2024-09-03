@@ -1,0 +1,85 @@
+/* fullcalendar-custom.css */
+.fc .fc-button {
+  @apply bg-hurryGreen text-white rounded-md px-4 py-1 text-sm;
+}
+
+.fc .fc-button-primary {
+  @apply bg-hurryGreen text-white rounded-md px-4 py-1 text-sm;
+}
+
+.fc .fc-toolbar-title {
+  @apply text-[14px] font-semibold py-2 md:py-0;
+}
+.fc .fc-toolbar-chunk {
+  @apply flex justify-center text-center items-center;
+}
+@media (max-width: 480px) {
+  .responsive-calendar .fc-toolbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.fc-col-header-cell-cushion,.fc-daygrid-day-number{
+  font-size: 8px;
+  font-weight:500;
+
+}
+.fc-daygrid-event-harness{
+  overflow-x: hidden;
+}
+  .responsive-calendar .fc-toolbar .fc-left,
+  .responsive-calendar .fc-toolbar .fc-right {
+    margin-bottom: 0.25rem;
+  }
+
+  .responsive-calendar .fc-header-toolbar h2 {
+    font-size: 12px;
+  }
+
+  .responsive-calendar .fc .fc-daygrid-day-number {
+    font-size:12px ;
+  }
+}
+
+@media screen and (max-width:680px) {
+.fc .fc-header-toolbar{
+  display: flex;
+  flex-direction: column;
+}
+.fc .fc-header-toolbar:first-child .fc-button-group button{
+ padding: 4px;
+ font-size: 12px;
+}
+.fc .fc-header-toolbar:first-child button{
+ padding: 4px;
+ font-size: 12px;
+}
+.fc .fc-header-toolbar .fc-toolbar-chunk h2{
+  font-size: 12px;
+}
+}
+
+.responsive-calendar .fc {
+  font-size: 0.85rem;
+}
+
+
+@media (max-width: 768px) {
+  .responsive-calendar .fc-toolbar {
+    flex-wrap: wrap;
+  }
+
+  .responsive-calendar .fc-toolbar .fc-left,
+  .responsive-calendar .fc-toolbar .fc-right {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+
+  
+.fc .fc-toolbar-title {
+  @apply text-[18px] font-semibold py-2 md:py-0;
+}
+
+}
+
